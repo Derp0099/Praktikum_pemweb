@@ -131,74 +131,7 @@ Kita bisa membuat gambar yang memiliki area klik berbeda-beda:</p>
 <div style="text-align: center;background-color:rgba(0, 40, 80, 0.9);color:white;">
         <small>© 2025 STT Nurul Fikri — Jago IT, Berkarakter</small>
 </div>
-<!--hehehe ijin ngikutin bg :D-->
-  <script>
 
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-      alert("HEHEHE :D");
-    });
-    document.onkeydown = function(e) {
-      if (
-        e.key === "F12" ||
-        (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
-        (e.ctrlKey && e.key === "U")
-      ) {
-        alert("HEHEHE :D");
-        return false;
-      }
-    };
-  </script>
-  
-  <div id="jumpscare">
-
-    <img src="https://i.redd.it/i-just-noticed-that-golden-freddys-jumpscare-in-fnaf-1-is-v0-bheqfjmhotdb1.png?width=1280&format=png&auto=webp&s=1e1d397f3ebe945a6d4a8e0cecdc6af87937c7bb" alt="Golden Freddy">
-    <audio id="scream" src="https://www.myinstants.com/en/instant/fnaf-jumpscare-scream/?utm_source=copy&utm_medium=share"></audio>
-  </div>
-
-  <script>
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-
-      const scare = document.getElementById('jumpscare');
-      const sound = document.getElementById('scream');
-
-      scare.style.display = 'flex';
-      sound.play();
-
-      // Sembunyikan setelah 3 detik
-      setTimeout(() => {
-        scare.style.display = 'none';
-        sound.pause();
-        sound.currentTime = 0;
-      }, 3000);
-    });
-  </script>
-  <div id="jumpscare">
-    <img src="https://i.redd.it/i-just-noticed-that-golden-freddys-jumpscare-in-fnaf-1-is-v0-bheqfjmhotdb1.png?width=1280&format=png&auto=webp&s=1e1d397f3ebe945a6d4a8e0cecdc6af87937c7bb" alt="Golden Freddy">
-
-    
-    <audio id="scream" src="fnaf-jumpscare.mp3"></audio>
-  </div>
-
-  <script>
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-
-      const scare = document.getElementById('jumpscare');
-      const sound = document.getElementById('scream');
-
-      scare.style.display = 'flex';
-      sound.play();
-
-      setTimeout(() => {
-        scare.style.display = 'none';
-        sound.pause();
-        sound.currentTime = 0;
-      }, 3000);
-    });
-  </script>
-  <!--gabisa jumpscare mantap-->
-  
 </body>
+
 </html>
