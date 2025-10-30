@@ -1,1 +1,1 @@
-Tempat Pengumpulan Tugas dan Praktikum DDP
+Tempat Pengumpulan Tugas dan Praktikum Pemrograman Web
